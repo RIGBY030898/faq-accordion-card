@@ -1,0 +1,38 @@
+// Primary text colors
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+
+// Background gradient
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+
+// Neutral text colors
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+
+// Divider colors
+$light-grayish-blue: hsl(240, 5%, 91%);
+
+// Phone screen
+$information-phone: "(max-width: 480px)";
+
+// Tablet screen
+$information-tablet: "(min-width: 480px) and (max-width: 728px)";
+
+// Desktop screen
+$information-desktop: "(min-width: 728px)";
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+// Feel free to remove these styles or customise in your own stylesheet 👍
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
